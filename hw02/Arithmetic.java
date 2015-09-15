@@ -13,7 +13,7 @@ public class Arithmetic{
 public static void main(String[] args ){
  
   int nSocks=3; //Number of pairs of socks
-  int nEnvelopes=1;//Number of boxes of envelopes
+  int nEnvelopes=1;//Number of boxes of envelopes b 
   int nGlasses=6; //Number of glasses
   double sockCost$=2.58;// cost per pair of socks
   double glassCost$=2.29;//Cost per glass
