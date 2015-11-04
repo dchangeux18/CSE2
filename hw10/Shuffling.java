@@ -20,7 +20,7 @@ public class Shuffling{
     public static void shuffle(String [] list){
        System.out.println(); 
        System.out.println("Shuffled");
-       for(int i = 0; i < 60;i++){ // the for loop will make sure that the deck is suffled less than 50 times if not fifty times
+       for(int i = 0; i < 50;i++){ // the for loop will make sure that the deck is suffled less than 50 times if not fifty times
            // the following four lines will take the card in the first index and shuffle it with the last
            int rand =(int)(Math.random()*51);
            String temp = list[rand];
