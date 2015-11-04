@@ -1,11 +1,11 @@
- /////////////////////////////////////////////////////////////////////////////////
-    //Danelia Changeux
-    //10/19/15
-    //CSE002
-    // First Compile the Program
-        // Javac Area.java
-    //Then run the program
-        // java Area
+/////////////////////////////////////////////////////////////////////////////////
+//Danelia Changeux
+//10/19/15
+//CSE002
+// First Compile the Program
+    // Javac Area.java
+//Then run the program
+    // java Area
 import java.util.Scanner; 
 public class StringAnalysis {
     public static void main (String [] args) {
