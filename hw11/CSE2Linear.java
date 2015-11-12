@@ -29,16 +29,7 @@ public class CSE2Linear {
 	    }
 	 return list;
 }
-// will check to see that the user has inserted the correct input
-	public static Boolean check(String unit1) {
-		int unit = 0;
-		try { unit = Integer.parseInt(unit1); }
-	 		catch (NumberFormatException e) {
-		 		System.out.println("error: invalid value. Try again."); 
-		 		return false;
-	 		}
-		return true;
-    } // end of the check method
+    
 
 
 
@@ -51,19 +42,13 @@ public class CSE2Linear {
 		//loop will run through and accept an input for each grade
 		for(i =0; i < 15; i++) {
 			//takes input as string
-			String test = input.next();
-			
-			                                  
-			Boolean pass = check(test); // the method verify is called
-			if(pass == false) {
-				System.out.println("Please try again and enter an integer :");
-				i--;
-				continue;
+			                               
+			if(i == 0) {
+				while(!input.hasNextInt()){
+					System.out.println("Bad In put please try again: ");
+					input.next();
+				}
 			}
-			
-			else{
-			//if test passes will set test integer to verify conditions 	
-				int j = Integer.parseInt(test);
 				
 			//if number out of range will take appropriate action	
 				if(j < 0 || j > 100 ) {
